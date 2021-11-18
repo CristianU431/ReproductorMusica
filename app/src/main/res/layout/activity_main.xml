@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="364dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Rock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rock364x116" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="364dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Disco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@drawable/disco364x116" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="364dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Techno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@drawable/techno364x116" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="364dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Pop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@drawable/pop364x116" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="364dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="Reggae"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:srcCompat="@drawable/reggae364x116" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
